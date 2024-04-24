@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/south-african-rand-currency-symbol.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Tip calculator app | Frontend Mentor</title>
+  <!-- project actioned by Mali-billz - https://mali-bee.github.io/social-profile-frontend-mentor-challenge/ -->
+
+</head>
+<body>
+
+  <main>
+
+    <section class="header">
+      <img src="./images/logo.svg" alt="logo">
+    </section>
+
+
+    <section class="hero">
+
+      <!-- left side / calculator -->
+      <div class="tocalculate">
+        <div class="bill-input">
+          <label for="" class="title">Bill</label>
+          <input type="number" name="" id="bill-field" class="bill-field input-amount" placeholder="R">
+        </div>
+
+        <div class="tipping">
+          <label for="" class="title">Select Tip %</label>
+          <div class="tip-options">
+            <figure class="tips tip-5">5%</figure>
+            <figure class="tips tip-10">10%</figure>
+            <figure class="tips tip-15 active-tip">15%</figure>
+            <figure class="tips tip-25">25%</figure>
+            <figure class="tips tip-50">50%</figure>
+            <figure id="tip-field"><input type="number" class="tip-field" placeholder="Custom"></figure>
+          </div>
+        </div>
+
+        <div class="people-amount">
+          <div class="inner-pplAmount">
+            <label for="" class="title">Number of People</label>
+            <label for="" class="title error-message">Can't be zero</label>
+          </div>
+          <input type="number" name="" id="" class="people-field input-amount" placeholder="0">
+        </div>
+      </div>
+
+
+      <!-- right side / caclulations -->
+      <div class="calculations">
+
+        <div class="inner-results">
+          <div class="inner-label">
+            <label for=""><p>Tip Amount <br><span class="innertxt">/person </span></p></label>
+            <div class="price tip-amount" id="tip-amount">R43.67</div>
+          </div>
+  
+          <div class="inner-label">
+            <label for=""><p>Total <br><span class="innertxt">/person </span></p></label>
+            <div class="price total-amount" id="total-amount">R218,09</div>
+          </div>
+        </div>
+
+        <div class="reset">
+          RESET
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+ 
+  <script src="./main.js"></script>
+</body>
+</html>
