@@ -1,2 +1,2 @@
 # tip-calculator-app
-building an application to help calculate tips
+building an application that helps calculate tips and amounts per person
